@@ -1,0 +1,74 @@
+.form-group{
+    margin: 10px 13px; 
+    color: black;
+    font-size: 20px;
+}
+.form-control{
+    margin-right: 50px;
+    width: 515.5px;
+    border-radius: 3px;
+    color: black;
+    display: block;
+    outline: none;
+    height: 20px;
+    font-size: large;
+}
+
+form{
+    background-color: lightblue;
+    padding: 50px;
+    width: 550px;
+    position: relative;
+
+    
+}
+
+
+.cap>h1{
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    top: 5px;
+    font-size: larger;
+}
+
+.nation{
+    width: 527px;
+    padding: 6px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-button{
+    margin: 14px;
+    margin-top: 5px ;
+    width: 245px;
+    padding: 7px 14px;
+    outline: none;
+   border: none;
+   border-radius: 5px;
+   font-weight: bold;
+   background-color: rgb(248, 70, 0);
+   color: white;
+   box-shadow: 0 0 3px #ccc;
+   transition: linear .2s;
+   cursor: pointer;
+}
+
+#baoloi{
+    margin: 0px auto; 
+    color:  red;
+    text-align: center;
+    font-size: large;
+}
+
+#form1 .loi{
+    width: 520.5px;
+    border: 1px solid red; background-color: yellow; 
+    
+}

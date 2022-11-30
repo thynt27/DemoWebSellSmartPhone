@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\JavascriptWEB1042\\BaiTap"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "BaiTap"
+	}
+}

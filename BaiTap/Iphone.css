@@ -1,0 +1,353 @@
+/*Background top*/
+.background{
+    background-color: #1DBF9F;
+    line-height: 50px;
+    
+}
+.fix-top{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.brand{
+   
+    font-size: 2.30rem;
+    margin-right: 33%;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-left: 37%;
+}
+
+
+
+.container a{text-decoration: none;
+    color: white;
+}
+
+/*Button top*/
+#trangchu
+.button-head
+{
+    border: none;
+    
+}
+.button
+.button-head{
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+   
+    
+}
+.button-head{
+    padding: 0.25rem 1.75rem;
+    font-size: 1.25rem;
+    line-height: 2;
+    background-color: transparent;
+    border-radius: 0.25rem;
+    transition: box-shadow  .15s ease-in-out;
+}
+.button-head>i:hover{
+    color: #f28d49;
+}
+
+
+/*Menu đứng*/
+.boxmenu{
+    margin-top: 70px;
+    
+}
+ul{
+    margin: 0;
+   
+}
+ul li{
+    list-style-type: none;
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 100px;
+    margin-left: 40px;
+}
+ul li:hover ul{
+    display: block;
+    position: absolute;
+   
+}
+ul li a{
+    text-decoration: none;
+    color: #1DBF9F;
+    font-size: 13pt;
+    position: relative;
+}
+ul li a::after{
+    content: "";
+    height: 5px;
+    width: 0px;
+    background: #f28d49;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    transition: all 0.5s ease-in-out;
+}
+ul li a:hover::after{
+    width: 50%;
+    transform: translateX(100%);
+}
+ul li ul{
+    display: none;
+    background-color: #FFF;
+    padding-left: 0px;
+}
+ul li ul li{
+    float: none;
+    border-bottom: 1px #CCC solid;
+    border-left: 1px #CCC solid;
+    border-right: 1px #CCC solid;
+    padding-left: 0px;
+    margin-left: 5px;
+}
+ul li ul li:first{
+    border-top: 1px #CCC solid;
+}
+ul li a:hover{
+    color: #f28d49;
+}
+/*CSS cho san pham*/
+article{
+    width: 100%;
+    min-height: 400px;
+    margin: 30px 0px;
+    display: block;
+}
+.boxcenter1{
+    width: 80%;
+    margin: 0 auto;
+   
+}
+.boxcenter2{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.boxpro{
+    
+    float: left;
+    width: 25%;
+}
+.boxpro1{
+   float: left;
+   padding-left: 120px;
+    
+}
+.boxpro1 a{
+    color: #333;
+    text-decoration: none;
+    
+}
+.boxpro1 a:hover{
+    color: #1DBF9F;
+    text-decoration: none;
+}
+.boxpro a{
+    color: #333;
+    text-decoration: none;
+}
+.boxpro a:hover{
+    color: #1DBF9F;
+    text-decoration: none;
+}
+.canle{
+    padding-left: 50px;
+}
+
+
+/* Thiết lập vị trí cho thẻ div với class dropdown*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+/* Nội dung Dropdown */
+.noidung_dropdown {
+    /*Ẩn nội dung các đường dẫn*/
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    left: -20px;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+/* Thiết kế style cho các đường dẫn trong Dropdown */
+.noidung_dropdown a {
+    color: #1DBF9F;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 12px;
+    padding-left: 12px;
+    text-decoration: none;
+    display: block;
+  }
+  /* thay đổi màu background khi hover vào đường dẫn */
+ .noidung_dropdown a:hover {background-color: #ddd;}
+ /* hiển thị nội dung dropdown khi hover */
+  .dropdown:hover .noidung_dropdown {display: block;}
+
+ 
+/*Hover ảnh mờ*/
+  img {
+    cursor: pointer;
+    opacity: 1;
+    }
+    img:hover {
+    opacity: 0.5;
+    }
+
+/*Gach chân dưới menu */
+hr{
+margin-right: 30px;
+margin-left: auto;
+margin-top: -70px;
+margin-bottom: 5px;
+border-width: 1px;
+}
+/*Phần tiêu đề cho dòng sản phẩm*/
+/*Khung ngoài*/
+.my-4{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.align-items-baseline{
+    align-items: baseline;
+}
+.d-flex{
+    display: flex;
+}
+/*Phần line bên trái phải*/
+.flex-fill{
+    flex: 1 1 auto;
+}
+.jazzy_jon_lines_cool{
+    height: 7px;
+    border-top: 4px solid #006ba6;
+    border-bottom: 8px solid #137171;
+}
+/*Phần text*/
+.text-center{
+    text-align: center;
+    
+}
+.mb-0{
+    margin-bottom: 0;
+}
+.mx-4{
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+}
+h2, .h2{
+    font-size: calc(1.3rem + 0.6vw);
+}
+
+
+/*Footer */
+footer{
+    left: 0;
+    font-size: large;
+    bottom: 0;
+    right: 0;
+    background-color: #1DBF9F;
+    color: #fff;
+    border-top: 3px solid #f28d49;
+    padding: 1rem 0;
+    margin-left: -8px;
+    margin-bottom: -8px;
+    margin-right: -8px;
+}
+/*Background bot*/
+.brandbot{
+   
+    font-size: 2.30rem;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-left: 27%;
+}
+/*Button bot*/
+#trangchu
+.button-bot
+{
+    border: none;
+    
+}
+.button
+.button-bot{
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    float: left;
+    
+}
+.button-bot{
+    padding: 0.25rem 1.75rem;
+    font-size: 1.25rem;
+    line-height: 2;
+    background-color: transparent;
+    border-radius: 0.25rem;
+    transition: box-shadow  .15s ease-in-out;
+}
+.button-bot>i:hover{
+    color: #f28d49;
+}
+
+/*Phần thông tin địa chỉ footer*/
+#trangchu2{
+    display: flex;
+    justify-content: space-between;
+    line-height: 2;
+}
+
+.gioithieu{
+    margin-left: 10px;
+}
+.lienket{
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#trangchu2
+.lienket a{
+    text-decoration: none;
+    color: white;
+}
+#trangchu2
+a.effect:hover{
+    color: #f28d49;
+    
+}
+
+.lienket p{
+    margin: 0;
+}
+.lienket>p:hover{
+    color: #f28d49;
+}
+.ketnoi{
+    margin-right: 10px;
+}
+.ketnoi .icon{
+    font-size: 30px;
+    cursor: pointer;
+}
+.icon>i:hover{
+    color: #f28d49;
+}
+.arrow>i:hover{
+    color: #f28d49;
+}
+.fa-twitter{
+    padding-left: 40px;
+}
+.fa-instagram{
+    padding-left: 40px;
+}

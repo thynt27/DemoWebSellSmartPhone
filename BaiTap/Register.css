@@ -1,0 +1,90 @@
+body{
+    background: url('img/Cyan\ and\ Pink\ -\ Apple\ version\ [3840x2160].jpg');
+    background-size: cover;
+    background-position-y: -80px;
+    
+}
+/*Cho các phần tử vào chính giữa màn hình*/
+#wrapper{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Khung đăng nhập*/
+#form-register{
+    max-width: 400px;
+    background: rgba(8, 8, 8, 0.4); /*Màu trong suốt*/
+    flex-grow: 1;
+    padding: 30px 30px 40px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 50px 100px -20px, rgba(255, 255, 255, 0.3) 0px 30px 60px -30px, rgba(255, 255, 255, 0.35) 0px -2px 6px 0px inset;
+}
+
+/*Chữ đăng nhập*/
+.form-heading{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 30px ;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.form-group i{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+   
+}
+/*Các phần tử trong form đăng nhập*/
+.form-group{
+    border-bottom: 1px solid #fff;
+    margin-top: 15px ;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+/*Nhập thông tin*/
+.form-input{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #f5f5f5;
+    flex-grow: 1;
+}
+.form-input::placeholder{
+    color: #f5f5f5;
+}
+/*Mắt mật khẩu*/
+#eye i{
+    padding-right: 0px ;
+    cursor: pointer;
+}
+/*Mắt nhập lại mật khẩu*/
+#eyes i{
+    padding-right: 0px ;
+    cursor: pointer;
+}
+/*Nút đăng nhập*/
+.form-submit{
+    background: transparent;
+    border: 1px solid #f5f5f5;
+    color: #fff;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 6px 10px;
+    transition: 0.25s ease-in-out;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.form-submit:hover{
+    border: 1px solid #1DBF9F; /*Hover khung viền nút*/
+}
+
+#baoloi{
+    margin: 0px auto; 
+    color:  red;
+    text-align: center;
+    font-size: large;
+}

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNITECH</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="trangchu.css">
+    <header>
+        <div id="trangchu" class="">
+            <nav class="fix-top background button logo">
+                <div class="container">
+                    <button type="button" class="button-head">
+                        <i class="fa-solid fa-bars"></i>
+
+                    </button>
+                    <a href="trangchu.html" class="brand" title="UNITECH"> UNITECH </a>
+                    <button type="button" class="button-head cart">
+                        <i class="fa-solid fa-cart-shopping">
+
+                        </i>
+                    </button>
+                    <div class="dropdown">
+                        <button class="nut_dropdown button-head"><i class="fa-solid fa-user"></i></button>
+                        <div class="noidung_dropdown">
+                            <a href="Login.html">Đăng nhập</a>
+                            <a href="Register.html">Đăng ký</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+</head>
+
+<body> 
+        <!-- Menu ngang -->
+        <div class="boxmenu">
+            <div class="boxcenter">
+                <ul>
+                    <li><a href="trangchu.html">Trang chủ</a></li>
+                    <li><a href="About.html">Giới thiệu</a></li>
+                    <li><a href="#">Điện thoại</a>
+                        <ul>
+                            <li><a href="Iphone.html">Iphone</a></li>
+                            <li><a href="#">Samsung</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="Laptop.html">Máy tính xách tay</a>
+                        <ul>
+                            <li><a href="#">Văn phòng</a></li>
+                            <li><a href="#">Gaming</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="Lienhe.html">Liên Hệ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <hr width="100%" size="1px" align="center" color="#1DBF9F" />
+
+        <canvas id="myCanvas" width="1330px" height="100px"></canvas>
+
+        <script>
+
+            var c = document.getElementById("myCanvas");
+            var ctx = c.getContext("2d");
+
+            ctx.font = "30px Verdana";
+            // Tạo dải màu
+            var gradient = ctx.createLinearGradient(0, 0, c.width, 0);
+            gradient.addColorStop("0", "magenta");
+            gradient.addColorStop("0.5", "blue");
+            gradient.addColorStop("1.0", "red");
+            // Đổ dải màu lên chữ
+            ctx.fillStyle = gradient;
+            ctx.fillText("CHÀO MỪNG BẠN ĐÃ ĐẾN VỚI CỬA HÀNG CỦA CHÚNG TÔI!", 200, 70);
+
+        </script>
+
+    </header>
+    <!-- 3 hình đầu -->
+    <div class="giaodien">
+        <div class="col">
+            <h2 class="h3 my-3 text-center color-orange">Đảm bảo chính hãng</h2>
+            <div class="card-img"><img src="img/iphone-13-pro-max.jpg" width="300px" height="260px" class="img"></div>
+        </div>
+        <div class="col">
+            <h2 class="h3 my-3 text-center color-orange">Hỗ trợ nhiệt tình</h2>
+            <div class="card-img"><img src="img/soporte3.png" width="300px" height="240px" class="img"></div>
+        </div>
+        <div class="col">
+            <h2 class="h3 my-3 text-center color-orange">Miễn phí vận chuyển</h2>
+            <div class="card-img"><img src="img/chinh-sach-van-chuyen.png" width="300px" height="260px" class="img">
+            </div>
+        </div>
+    </div>
+    <!-- Điện thoại -->
+    <h2><i class="fa-solid fa-mobile-screen-button"></i> Điện Thoại</h2>
+    <div class="card-body">
+        <div class="col-sp">
+            <img src="img/iphone-13-promax 128GB- 28tr290.png" class="img" width="140px" height="180px">
+            <h6 class="card-title title">Iphone 13 Promax 128GB</h6>
+            <div class="price"><span>28.290.000VND <i class="fa-brands fa-apple"></i></span></div>
+        </div>
+
+        <div class="col-sp">
+            <img src="img/iphone-13-blue-select-2021-470x556.png " class="img" width="140px" height="180px">
+            <h6 class="card-title title">Iphone 13 Promax 256GB</h6>
+            <div class="price"><span>31.290.000VND <i class="fa-brands fa-apple"></i></span></div>
+        </div>
+
+        <div class="col-sp">
+            <img src="img/iphone11-red-128GB-21tr630.png" class="img" height="180px">
+
+            <h6 class="card-title title">Iphone 11 128GB</h6>
+            <div class="price"><span>21.630.000VND <i class="fa-brands fa-apple"></i></span></div>
+        </div>
+        <div class="col-sp">
+            <img src="img/iphone-12-red-2020.jpg" class="img" width="140px" height="180px">
+            <h6 class="card-title title">Iphone 12 Red 64GB</h6>
+            <div class="price"><span>21.690.000VND <i class="fa-brands fa-apple"></i></span></div>
+        </div>
+        <div class="col-sp">
+            <img src="img/iphone-13-pro-max-256GB-29tr5.png" class="img" width="140px" height="180px">
+            <h6 class="card-title title">Iphone 13 Promax 512GB</h6>
+            <div class="price"><span>34.550.000VND <i class="fa-brands fa-apple"></i></span></div>
+        </div>
+    </div>
+
+    <!-- Máy tính xách tay -->
+    <h2><i class="fa-solid fa-laptop"></i> Máy tính xách tay</h2>
+    <div class="card-body">
+        <div class="col-sp">
+            <img src="img/macbook.jpg" class="img" width="170px" height="100px">
+            <h6 class="card-title title">Macbook Air 2020</h6>
+            <div class="price"><span>22.890.000VND <i class="fa-brands fa-apple"></i></span></div>
+        </div>
+
+        <div class="col-sp">
+            <img src="img/macbook-pro-2019.jpg " class="img" width="170px" height="100px">
+            <h6 class="card-title title">Macbook Pro 16" 2019</h6>
+            <div class="price"><span>53.000.000VND <i class="fa-brands fa-apple"></i></span></div>
+        </div>
+
+        <div class="col-sp">
+            <img src="img/samsunggalaxybookS.png" class="img" width="170px" height="100px">
+
+            <h6 class="card-title title">Samsung Galaxy Book S</h6>
+            <div class="price"><span>16.000.000VND <i class="fa-brands fa-windows"></i></span></div>
+        </div>
+        <div class="col-sp">
+            <img src="img/razer-blade-15.png" width="170px" height="100px">
+            <h6 class="card-title title">Razer Blade 15" 2021</h6>
+            <div class="price"><span>52.000.000VND <i class="fa-brands fa-windows"></i></span></div>
+        </div>
+        <div class="col-sp">
+            <img src="img/asuschromebook.png" class="img" width="170px" height="100px">
+            <h6 class="card-title title">Asus Chromebook Flip C536</h6>
+            <div class="price"><span>34.550.000VND <i class="fa-brands fa-windows"></i></span></div>
+        </div>
+    </div>
+
+    <footer>
+        <div id="trangchu2">
+            <div class="gioithieu"> CỬA HÀNG ĐIỆN THOẠI UNITECH <br>
+                <i class="fa-solid fa-location-pin"></i> Địa chỉ: 15/4 đường số 45, phường 14,
+                <br> Quận Gò Vấp, Thành Phố Hồ Chí Minh. <br>
+                <i class="fa-solid fa-phone"></i> Điện thoại: 0333521789. <br>
+                <i class="fa-solid fa-envelope"></i> Email: thynt27@gmail.com.
+            </div>
+            <div class="lienket">TRUY CẬP NHANH <br>
+
+                <p><i class="fa-solid fa-angle-right"></i> <a href="" class="effect">Trang chủ</a></p>
+                <p><i class="fa-solid fa-angle-right"></i> <a href="" class="effect">Giới thiệu</a></p>
+                <p><i class="fa-solid fa-angle-right"></i> <a href="" class="effect">Điện thoại</a></p>
+                <p><i class="fa-solid fa-angle-right"></i> <a href="" class="effect">Máy tính xách tay</a></p>
+                <p><i class="fa-solid fa-angle-right"></i> <a href="" class="effect">Đồng hồ thông minh</a></p>
+
+
+            </div>
+
+
+            <div class="ketnoi">GIỜ LÀM VIỆC <br>
+                <i class="fa-solid fa-angle-right"></i> Sáng: 8h-12h <br>
+                <i class="fa-solid fa-angle-right"></i> Chiều: 13h30-17h30
+                <br> KẾT NỐI VỚI CHÚNG TÔI <br>
+                <div class="icon"><i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-twitter"></i> <i
+                        class="fa-brands fa-instagram"></i></div>
+            </div>
+        </div>
+
+
+    </footer>
+
+</body>
+<script src="https://uhchat.net/code.php?f=8ec41f"></script>
+
+</html>
